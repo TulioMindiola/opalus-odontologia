@@ -507,7 +507,7 @@ mark { background: var(--sky-light); color: inherit; padding: 0 0.15em; }
   filter: brightness(0.5);
 }
 .foot-top, .foot-bottom { position: relative; z-index: 1; padding: 32px calc(var(--edge) + var(--pad)); }
-.foot-top { display: flex; justify-content: space-between; gap: 32px; align-items: flex-start; }
+.foot-top { display: flex; justify-content: space-between; gap: 32px; align-items: flex-start; padding-top: calc(var(--bar-h) + 32px); }
 .foot-links { display: grid; gap: 6px; }
 .foot-links a, .foot-contact a { text-decoration: none; font-weight: 500; }
 .foot-links a:hover, .foot-contact a:hover { color: var(--p1); }
